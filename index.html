@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind customization -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: '#FECC02',
+                        offBlock: '#131313',
+                        gray: '#4E4E4E'
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "cursive"],
+                        mont: ["Montserrat", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+    <!--        font-family: 'Bebas Neue', cursive;
+                font-family: 'Montserrat', sans-serif; 
+    -->
+    <title>Document</title>
+</head>
+<body>
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/AtikAkbar/production-house-tailwind.git
+    git push -u origin main
+</body>
+</html>
